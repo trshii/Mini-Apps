@@ -51,7 +51,7 @@ class StatusView:
         
     def display_error(self, error: Exception) -> None:
         print(f"Error fetching status from GitHub: {error}")
-        
+            
     def display_raw_status(self, data: Any) -> None:
         print(data)
         
