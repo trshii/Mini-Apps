@@ -31,7 +31,7 @@ class Status_View:
                 print(f"{name}: \033[91m*** {status.upper()} ***\033[0m") 
         
     def display_error(self, error: Exception):
-        print(f"Error fetching status from GitHub: {e}")
+        print(f"Error fetching status from GitHub: {error}")
         
     def display_raw_status(self, data: Any):
         print(data)
