@@ -51,7 +51,7 @@ class TkinterStatusView:
     def __init__(self, root: tk.Tk) -> None:
         self._root = root
         self._root.title("Github System Status")
-        self._root.geometry("450x500")
+        self._root.geometry("450x300")
         self._root.minsize(300, 300)
         
         self._root.columnconfigure(0, weight=1)
