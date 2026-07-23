@@ -8,5 +8,5 @@
 
 ## Mini-Apps List
 
-- GitHub Status (currently Terminal-based)
+- GitHub Status (TkinterGUI-based)
 - Wordle Clone (Terminal-based and Webpage-based)
